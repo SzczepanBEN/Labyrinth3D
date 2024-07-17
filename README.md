@@ -1,17 +1,76 @@
-## Running React on Replit
+# 3D Labyrinth Game
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+A immersive, first-person 3D labyrinth game built with React and Three.js. Navigate through randomly generated mazes, with increasing difficulty as you progress through levels.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Features
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+- 3D first-person perspective
+- Randomly generated mazes for each level
+- 10 levels of increasing difficulty
+- WASD movement and mouse look controls
+- Collision detection to prevent walking through walls
+- Timer to track your progress
+- Level indicator
+- Start screen with instructions
+- Game over screen with completion time
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## Technologies Used
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+- React
+- Three.js
+- React Three Fiber
+- HTML5
+- CSS3
 
-### Typescript
+## Installation
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/3d-labyrinth-game.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd 3d-labyrinth-game
+   ```
+
+3. Install the dependencies:
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+   ```
+   npm start
+   ```
+
+5. Open your browser and visit `http://localhost:3000` to play the game.
+
+## How to Play
+
+1. Click on the game screen or press the Space bar to start.
+2. Use the WASD keys to move:
+   - W: Move forward
+   - A: Move left
+   - S: Move backward
+   - D: Move right
+3. Use the mouse to look around.
+4. Navigate through the maze to find the exit (golden tile).
+5. Complete all 10 levels as quickly as you can!
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Future Improvements
+
+- Add difficulty settings
+- Implement a leaderboard system
+- Add more visual effects and sounds
+- Create custom maze themes
+
+Enjoy the game and happy coding!
