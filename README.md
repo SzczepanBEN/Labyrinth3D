@@ -11,7 +11,6 @@ A immersive, first-person 3D labyrinth game built with React and Three.js. Navig
 - Collision detection to prevent walking through walls
 - Timer to track your progress
 - Level indicator
-- Start screen with instructions
 - Game over screen with completion time
 
 ## Technologies Used
@@ -26,12 +25,12 @@ A immersive, first-person 3D labyrinth game built with React and Three.js. Navig
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/3d-labyrinth-game.git
+   git clone https://github.com/SzczepanBEN/Labyrinth3D
    ```
 
 2. Navigate to the project directory:
    ```
-   cd 3d-labyrinth-game
+   cd Labyrinth3D
    ```
 
 3. Install the dependencies:
